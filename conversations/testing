@@ -1,0 +1,38 @@
+{
+  "model": "meta/llama-3.1-405b-instruct",
+  "profile": "default",
+  "system_prompt": "You are a knowledgeable and friendly AI assistant, providing clear and accurate answers to a wide range of questions.",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a knowledgeable and friendly AI assistant, providing clear and accurate answers to a wide range of questions."
+    },
+    {
+      "role": "user",
+      "content": "Test"
+    },
+    {
+      "role": "assistant",
+      "content": "It looks like you're testing to see if I'm working properly! I'm happy to report that I'm functioning correctly and ready to help with any questions or topics you'd like to discuss. How can I assist you today?"
+    },
+    {
+      "role": "user",
+      "content": "Test save chat history"
+    },
+    {
+      "role": "assistant",
+      "content": "Unfortunately, I'm a text-based AI model, I don't have the ability to save our chat history on my end. Each time you interact with me, it's a new conversation and I don't retain any information from previous chats.\n\nHowever, you can copy and paste our conversation into a note-taking app or a document on your device if you'd like to keep a record of our chat. That way, you can refer back to our conversation later if you need to.\n\nIs there anything else I can help you with?"
+    }
+  ],
+  "timestamp": "2025-05-06T19:36:08.426130",
+  "usage_metrics": {
+    "total_tokens": 132,
+    "total_requests": 2,
+    "responses_by_profile": {
+      "default": 2,
+      "coding": 0,
+      "math": 0,
+      "writing": 0
+    }
+  }
+}

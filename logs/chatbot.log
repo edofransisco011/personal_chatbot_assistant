@@ -1,0 +1,11 @@
+2025-05-06 19:35:05,321 - LlamaChatbot - INFO - Initialized chatbot with model: meta/llama-3.1-405b-instruct
+2025-05-06 19:35:05,322 - LlamaChatbot - INFO - Conversation reset
+2025-05-06 19:35:10,287 - LlamaChatbot - INFO - Sending request to model with profile: default
+2025-05-06 19:35:11,146 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-06 19:35:12,655 - LlamaChatbot - INFO - Response generated successfully (~39 tokens)
+2025-05-06 19:35:40,306 - CommandHandler - INFO - Executing command: /help
+2025-05-06 19:35:48,560 - LlamaChatbot - INFO - Sending request to model with profile: default
+2025-05-06 19:35:49,194 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-06 19:35:52,464 - LlamaChatbot - INFO - Response generated successfully (~93 tokens)
+2025-05-06 19:36:08,425 - CommandHandler - INFO - Executing command: /save
+2025-05-06 19:36:08,427 - LlamaChatbot - INFO - Conversation saved to: conversations\testing
